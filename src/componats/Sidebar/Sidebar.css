@@ -1,0 +1,98 @@
+/* Sidebar container */
+.sidebar {
+    flex: 3;
+    height: calc(100vh - 50px);
+    background-color: #f0f2f5;
+    position: sticky;
+    top: 50px;
+    padding: 20px;
+    overflow-y: auto;
+  }
+  
+  /* Sidebar content wrapper */
+  .sidebarWrapper {
+    padding: 10px;
+    color: #555;
+  }
+  
+  /* Sidebar list */
+  .sidebarList {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  /* Sidebar list item */
+  .sidebarListItem {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sidebarListItem:hover {
+    background-color: #e0e0e0;
+    border-radius: 10px;
+  }
+  
+  /* Icons in sidebar */
+  .sidebarIcon {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #555;
+  }
+  
+  /* Text in sidebar list item */
+  .sidebarListItemText {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  /* Show more button */
+  .sidebar button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1877f2;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+  }
+  
+  .sidebar button:hover {
+    background-color: #1558b2;
+  }
+  
+  /* Sidebar friend list */
+  .sidebarFrindlist {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Individual friend item */
+  .sidebarFrinde {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  /* Friend profile image */
+  .sidebarimg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  /* Friend name */
+  .sidebarname {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
